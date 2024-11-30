@@ -66,7 +66,9 @@ Se ha desarrollado un tipo de algoritmo, denominado ajuste fino con parámetros 
 - Tiempos de entrenamiento más rápidos (finaliza el entrenamiento más rápido);
 - Requerimientos de hardware más bajos (funciona con GPU más pequeñas y menos memoria);
 - Mejor rendimiento de modelado (reduce el sobreajuste);
-- Menos almacenamiento (la mayoría de los pesos se pueden compartir entre diferentes tareas).   
+- Menos almacenamiento (la mayoría de los pesos se pueden compartir entre diferentes tareas).
+
+![Diagrama del proyecto](https://github.com/Kinartb/Entregables_NLP/blob/main/PC4/Imagenes/Taxonomy_of_Parameter-Efficient.png)
 
 ### Tipos de Fine-Tuning:
 Se diferencian entre sí en términos de los diferentes módulos o parámetros ajustables adicionales.

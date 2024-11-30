@@ -75,7 +75,9 @@ Se diferencian entre sí en términos de los diferentes módulos o parámetros a
 - **PEFT aditiva**: Que modifica la arquitectura del modelo inyectando nuevos módulos entrenables o parámetros.
 - **PEFT selectiva** : Que hace que un subconjunto de parámetros sea entrenable durante el ajuste fino.
 - **PEFT reparametrizada**: Que construye una reparametrización (de baja dimensionalidad) de los parámetros del modelo original para el entrenamiento y luego la transforma de manera equivalente para la inferencia.
-- **PEFT híbrida**: Que combina las ventajas de diferentes métodos PEFT para construir un modelo PEFT unificado. 
+- **PEFT híbrida**: Que combina las ventajas de diferentes métodos PEFT para construir un modelo PEFT unificado.
+
+![Diagrama del proyecto](https://github.com/Kinartb/Entregables_NLP/blob/main/PC4/Imagenes/Types_of_PEFT.png)
 
 ### PEFT reparametrizada:
 
@@ -118,6 +120,6 @@ Donde:
 
 LoRA es sencillo de implementar y ha sido evaluado en modelos con hasta **175 mil millones de parámetros**. Una vez completado el ajuste fino, los pesos adaptativos de LoRA se integran perfectamente con los pesos preentrenados del modelo base, manteniendo la eficiencia del modelo sin añadir carga adicional durante la inferencia.   
    
-
+![Diagrama del proyecto](https://github.com/Kinartb/Entregables_NLP/blob/main/PC4/Imagenes/imagen_lora.png)
 
 

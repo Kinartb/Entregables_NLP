@@ -46,7 +46,7 @@ pip install transformers torch accelerate
 ## Desarrollo
 
 Se tiene el código en el siguiente enlace:
-
+[Código inical del proyecto usando LORA- Fine-tuning](https://github.com/Kinartb/Entregables_NLP/blob/main/PC4/pc4.ipynb)
 ## Elección del dataset:
 
 El dataset WikiText fue seleccionado para este proyecto debido a sus características específicas que lo hacen adecuado para entrenar y ajustar modelos de lenguaje como GPT-2 utilizando técnicas como PEFT. WikiText está compuesto por textos extraídos de artículos de Wikipedia, lo que asegura una gramática con pocas irregularidades. Esto permite que los modelos de lenguaje se centren en aprender patrones lingüísticos y estructuras complejas sin distraerse con ruido o inconsistencias típicas de otros datasets.

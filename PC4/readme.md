@@ -26,10 +26,7 @@ Estamos usando los siguientes recursos:
 
 - Transformers: Carga modelos preentrenados como GPT-2.
 - GPT-2: es un modelo de transformadores entrenado previamente en un corpus muy grande de datos en inglés de manera autosupervisada.
-- wikitext - Dataset a trabajar que se divide en 
--- wikitext_test
--- wikitext_train
--- wikitext_validation
+- wikitext - Dataset a trabajar que se divide en: wikitext_test, wikitext_train, wikitext_validation
 - PEFT  - Parameter-Efficient Fine-Tuning
 - LORA - LowRank Adaptation
 
